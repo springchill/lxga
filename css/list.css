@@ -1,0 +1,97 @@
+.main-box{
+	margin-top: 20px;
+	/* background-color: #fff; */
+}
+.main-box .crumbs {
+    font-size: 15px;
+    color: #0071ee;
+    padding:10px 20px;
+    background-color: rgba(255,255,255,0.5);
+	border-bottom: 1px solid #eee;
+}
+
+
+.main-box .crumbs a {
+    color: #0071ee;
+}
+.main-nav{
+	border-right: 1px solid #eee;
+}
+.main-content{
+	display: flex;
+}
+.main-nav-list{
+	background-color: rgba(255,255,255,0.7);
+	padding-bottom: 20px;
+}
+.main-nav-title{
+	height: 80px;
+	background-color: rgba(255,255,255,0.5);
+	margin-bottom: 5px;
+	font-size: 30px;
+	color: #0071ee;
+	background-image: url(../images/fw.png);
+	background-size: 100%;
+	background-position: -140px;
+	background-repeat: no-repeat;
+}
+.main-nav-item{
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	padding:0 20px;
+	cursor: pointer;
+	position: relative;
+}
+.main-nav-item::before{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	content: '';
+	width: 220px;
+	height: 50px;
+	border-bottom: 1px dashed #ccc;
+}
+.main-nav-icon{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.main-nav-current{
+	color: #fff;
+	background-color: #0071ee;
+}
+.main-title-english{
+	font-size: 12px;
+}
+.main-nav-title div{
+	/* padding-top: 10px; */
+	margin-left: 90px;
+}
+.main-right{
+	width: 100%;
+	background-color: rgba(255,255,255,0.7);
+}
+.main-right-list{
+	padding:10px 20px;
+}
+.main-right-link{
+	display: flex;
+	color: #000;
+	justify-content: space-between;
+}
+.main-right-clickNum{
+	margin-left: 10px;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px;
+	background-color: #0bb76f;
+}
+.main-right-date{
+	font-size: 14px;
+	color: #A9A9A9;
+}
+.main-right-item{
+	margin-bottom: 15px;
+}

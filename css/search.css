@@ -1,0 +1,261 @@
+.main-box{
+	margin-top: 20px;
+	background-color: #fff;
+	min-height: 700px;
+}
+.crumbs{
+	padding:10px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.main-content{
+	padding-bottom: 40px;
+}
+
+.main-article{
+    height: 100%;
+	border: 1px solid #ccc;
+	margin: 0 20px 20px 20px;
+}
+.main-article-title{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.main-article-menu{
+	display: flex;
+	height: 40px;
+	line-height: 40px;
+	justify-content: space-between;
+	padding: 0 5%;
+	position: relative;
+	color: #9E9C9C;
+}
+.main-article-menu::before{
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	content: '';
+	width: 90%;
+	border-bottom: 1px solid #ccc;
+}
+.main-article-common{
+	font-size: 14px;
+	margin-right: 20px;
+}
+.main-article-color{
+	color: #0071ee;
+}
+.main-article-icon{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.main-article-pointer{
+	cursor: pointer;
+}
+.main-article-content{
+	padding: 20px;
+	text-indent: 20px;
+	line-height: 30px;
+}
+.crumbs-back{
+	color:#0071ee;
+}
+.fy_list_01 {
+	margin: 30px auto;
+	text-align: center;
+	color: #555555;
+}
+
+.fy_list_01 .fy_tit_l {
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 0;
+}
+
+.fy_list_01 .fy_tit_l a {
+	font-size: 14px;
+	border-radius: 3px;
+	display: inline-block;
+	line-height: 38px;
+	height: 38px;
+	padding: 0px 15px;
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+	margin-right: 5px;
+	color: #555555;
+}
+
+.fy_list_01 .fy_tit_l a.prev em,
+.fy_list_01 .fy_tit_l a.next em {
+	display: block;
+	width: 5px;
+	height: 38px;
+}
+
+.fy_list_01 .fy_tit_l a.prev em {
+	background: url(fy_prev.png) no-repeat 0px -1px;
+	float: left;
+	margin-right: 10px;
+}
+
+.fy_list_01 .fy_tit_l a.next em {
+	background: url(fy_next.png) no-repeat 0px -1px;
+	float: right;
+	margin-left: 10px;
+}
+
+.fy_list_01 .fy_tit_l a.on,
+.fy_list_01 .fy_tit_l a:hover {
+	background-color: #0073dc;
+	color: #ffffff;
+	border: 1px solid #0073dc;
+}
+
+.fy_list_01 .fy_tit_l a.prev:hover em,
+.fy_list_01 .fy_tit_l a.next:hover em {
+	background-position: 0px -81px;
+}
+
+.fy_list_01 .fy_tit_l a.prevStop em,
+.fy_list_01 .fy_tit_l a.nextStop em {
+	background-position: 0px -1px;
+}
+
+.fy_list_01 .fy_tit_l a.prevStop,
+.fy_list_01 .fy_tit_l a.nextStop {
+	color: #999999;
+}
+
+.fy_list_01 .fy_tit_l a.prevStop:hover,
+.fy_list_01 .fy_tit_l a.nextStop:hover {
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+	color: #999999;
+	cursor: default;
+}
+
+.fy_list_01 .fy_tit_l a.prevStop:hover em,
+.fy_list_01 .fy_tit_l a.nextStop:hover em {
+	cursor: default;
+	background-position: 0px -1px;
+}
+
+.fy_list_01 .fy_tit_r {
+	display: inline-block;
+	line-height: 40px;
+}
+
+.fy_list_01 .fy_inp {
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	background-color: #ffffff;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	margin: 0 8px;
+	font-size: 15px;
+	color: #555555;
+}
+
+.fy_list_01 .fy_go {
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #e2e2e2;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 8px;
+	font-size: 14px;
+	color: #555555;
+	cursor: pointer;
+}
+
+@media screen and (max-width:999px) {
+	.fy_list_01 {
+		text-align: center;
+	}
+
+	.fy_list_01 .fy_tit_l {
+		float: inherit;
+		text-align: center;
+		margin: 0;
+		border: 0;
+	}
+
+	.fy_list_01 .fy_tit_l a,
+	.fy_list_01 .fy_tit_r {
+		display: none;
+	}
+
+	.fy_list_01 .fy_tit_l a.prev,
+	.fy_list_01 .fy_tit_l a.next {
+		display: inline-block;
+		border: 1px solid #d9d9d9;
+	}
+
+	.fy_list_01 .fy_tit_l a.next {
+		margin-left: 5px;
+	}
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a.tgreen1 {
+	color: #1e9e49;
+}
+
+.zj_list li {
+	overflow: hidden;
+	height: auto !important;
+	font-size: 15px;
+	border-bottom: 1px solid #cccccc;
+	padding: 15px;
+}
+
+.zj_list li h3 {
+	font-size: 18px;
+	color: #000;
+	line-height: 30px;
+	font-weight: normal;
+	margin-bottom: 6px;
+}
+
+.zj_list li h3 a {
+	color: #000
+}
+
+.zj_list li h3 span {
+	background-color: #008bff;
+	color: #ffffff;
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.zj_list li p span {
+	border: 1px solid #cccccc;
+	padding: 4px 10px;
+	margin-right: 12px;
+	border-radius: 5px;
+	font-size: 14px;
+	float: right
+}
+
+.zj_list li p span img {
+	margin-right: 8px;
+	margin-top: -4px;
+}
+
+.zj_list li.yjs h3 span {
+	background-color: #cccccc
+}
